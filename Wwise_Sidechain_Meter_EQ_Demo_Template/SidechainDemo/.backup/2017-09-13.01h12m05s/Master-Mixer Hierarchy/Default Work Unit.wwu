@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EDD3E639-54E4-48C5-A951-F9EDB78DD807}" SchemaVersion="69">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{EDD3E639-54E4-48C5-A951-F9EDB78DD807}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Dia" ID="{2DFB120B-E6F4-40FF-9859-7B0C928E374A}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Wwise_Meter_Dia" ID="{E20224F7-0910-43C4-BBA5-16D82D418CC3}" WorkUnitID="{CF47B951-6AE7-4924-8015-F83E76F7651B}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="SFX" ID="{C8934D3C-BB40-4233-AC46-9DF153488927}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Wwise_Meter_SFX" ID="{3B75A89A-4EBF-4BB9-ACB9-905581B1755D}" WorkUnitID="{CF47B951-6AE7-4924-8015-F83E76F7651B}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Meter_3band_Sfx" ID="{6ABD6EC3-E564-47D2-91B3-7221E3A9955D}" WorkUnitID="{CF47B951-6AE7-4924-8015-F83E76F7651B}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="Mx" ID="{4FF7AAA8-6C46-4296-8EB2-8E7226BC5856}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Wwise_Meter_Mx" ID="{1EA79D80-2774-45CA-B6A9-9274906B32DF}" WorkUnitID="{CF47B951-6AE7-4924-8015-F83E76F7651B}"/>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+									<ObjectRef Name="Meter_3band_Mx" ID="{905B0BD2-F9AE-4A6A-82D7-6599DF590FB7}" WorkUnitID="{CF47B951-6AE7-4924-8015-F83E76F7651B}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

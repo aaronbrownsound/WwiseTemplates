@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="75">
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="963809164" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Attenuations\Default Work Unit.wwu" DateLow="964364542" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Audio Devices\Default Work Unit.wwu" DateLow="964469608" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Control Surface Sessions\Default Work Unit.wwu" DateLow="964414567" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Conversion Settings\Default Work Unit.wwu" DateLow="963594024" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Conversion Settings\Factory Conversion Settings.wwu" DateLow="963669067" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Dynamic Dialogue\Default Work Unit.wwu" DateLow="964044322" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Effects\Default Work Unit.wwu" DateLow="963894219" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Effects\Factory Effects.wwu" DateLow="964269468" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Events\Default Work Unit.wwu" DateLow="963538983" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Game Parameters\Default Work Unit.wwu" DateLow="963739123" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="964344523" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="964154393" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Mixing Sessions\Default Work Unit.wwu" DateLow="964494626" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Modulators\Default Work Unit.wwu" DateLow="964389552" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Presets\Default Work Unit.wwu" DateLow="963774145" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Queries\Default Work Unit.wwu" DateLow="963954256" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Queries\Factory Queries.wwu" DateLow="964019301" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\SidechainDemo.Owner.wsettings" DateLow="2096322183" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\SidechainDemo.wproj" DateLow="963488950" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\SoundBanks\Default Work Unit.wwu" DateLow="964069335" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Soundcaster Sessions\Default Work Unit.wwu" DateLow="964099358" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\States\Default Work Unit.wwu" DateLow="963834179" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Switches\Default Work Unit.wwu" DateLow="963704098" DateHigh="30616663"/>
+	<ValidationCacheItem File="C:\Users\Owner\Documents\WwiseProjects\SidechainDemo\Triggers\Default Work Unit.wwu" DateLow="964124373" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="219861823" DateHigh="30620569"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Attenuations\Default Work Unit.wwu" DateLow="964364542" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Audio Devices\Default Work Unit.wwu" DateLow="964469608" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Control Surface Sessions\Default Work Unit.wwu" DateLow="964414567" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Conversion Settings\Default Work Unit.wwu" DateLow="963594024" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Conversion Settings\Factory Conversion Settings.wwu" DateLow="963669067" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Dynamic Dialogue\Default Work Unit.wwu" DateLow="964044322" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Effects\Default Work Unit.wwu" DateLow="583181672" DateHigh="30620570"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Effects\Factory Effects.wwu" DateLow="964269468" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Events\Default Work Unit.wwu" DateLow="963538983" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Game Parameters\Default Work Unit.wwu" DateLow="583106629" DateHigh="30620570"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="964344523" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="219791767" DateHigh="30620569"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Mixing Sessions\Default Work Unit.wwu" DateLow="964494626" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Modulators\Default Work Unit.wwu" DateLow="964389552" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Presets\Default Work Unit.wwu" DateLow="963774145" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Queries\Default Work Unit.wwu" DateLow="963954256" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Queries\Factory Queries.wwu" DateLow="964019301" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\SidechainDemo.Owner.wsettings" DateLow="1487837162" DateHigh="30620570"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\SidechainDemo.wproj" DateLow="963488950" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\SoundBanks\Default Work Unit.wwu" DateLow="964069335" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Soundcaster Sessions\Default Work Unit.wwu" DateLow="583261725" DateHigh="30620570"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\States\Default Work Unit.wwu" DateLow="963834179" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Switches\Default Work Unit.wwu" DateLow="963704098" DateHigh="30616663"/>
+	<ValidationCacheItem File="E:\WwiseTemplates\SidechainDemo\Triggers\Default Work Unit.wwu" DateLow="964124373" DateHigh="30616663"/>
+</ValidationCache>

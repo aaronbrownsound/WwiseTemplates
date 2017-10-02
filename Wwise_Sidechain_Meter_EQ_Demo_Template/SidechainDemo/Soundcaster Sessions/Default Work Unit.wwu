@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A51D9E9-D86D-49F4-A627-86A5D77AA6CF}" SchemaVersion="75">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{1A51D9E9-D86D-49F4-A627-86A5D77AA6CF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="PlayTest" ID="{52EB7EE8-5D03-457A-8FBD-4025AD49896D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayAll" ID="{AE81A704-1268-4D71-8AAF-C90743EF3DEF}" WorkUnitID="{49C2F158-029F-44BF-A0C5-1CA96F4FFD33}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}"/>
+							<Value>9.52815084065244E-316</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WwiseMeter_Sfx" ID="{3C961623-C96C-4A98-941A-FBA6D95D01DB}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WwiseMeter_Mx" ID="{B1041C6B-ED98-4BAE-AB9A-D30FAB3C1C5D}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

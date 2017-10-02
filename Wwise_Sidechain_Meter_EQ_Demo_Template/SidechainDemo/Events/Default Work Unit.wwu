@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{49C2F158-029F-44BF-A0C5-1CA96F4FFD33}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{49C2F158-029F-44BF-A0C5-1CA96F4FFD33}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayAll" ID="{AE81A704-1268-4D71-8AAF-C90743EF3DEF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{FDDA1940-3DB2-48BF-AC41-1D26D7B9E741}" ShortID="843473632" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{370A045F-BA18-4358-82DD-7ADAA0C81AB5}" Global="false">
+									<ObjectRef Name="DiaStemSin440" ID="{C50062DE-0EA0-48D3-BEA7-A70DA4FA07C3}" WorkUnitID="{B0700DA2-554E-471C-8F13-59C4FC713671}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{163ED7E3-4575-469B-BD8F-D904CC3D16A4}" ShortID="883592324" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{89FCDAD4-E236-4DEE-8DD6-8682EBCECD1C}" Global="false">
+									<ObjectRef Name="MxStemSin880" ID="{B187295B-9B35-40CA-BB2C-A31EC0821742}" WorkUnitID="{B0700DA2-554E-471C-8F13-59C4FC713671}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{B0221760-C9F1-4226-8BAB-2EB4F3CCE3DF}" ShortID="549306764" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{AAB5505E-7628-45CB-90E5-8034F2021C22}" Global="false">
+									<ObjectRef Name="SfxStemSin220" ID="{FF4C62EE-DBD2-4AF3-8052-BF4071D55C50}" WorkUnitID="{B0700DA2-554E-471C-8F13-59C4FC713671}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CF47B951-6AE7-4924-8015-F83E76F7651B}" SchemaVersion="69">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{CF47B951-6AE7-4924-8015-F83E76F7651B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Wwise_Meter_Dia" ID="{E20224F7-0910-43C4-BBA5-16D82D418CC3}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+						<Property Name="Hold" Type="Real32" Value="0.05"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.05"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Wwise_Meter_Mx" ID="{1EA79D80-2774-45CA-B6A9-9274906B32DF}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.15"/>
+						<Property Name="Hold" Type="Real32" Value="0.16"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.11"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="WwiseMeter_Mx" ID="{B1041C6B-ED98-4BAE-AB9A-D30FAB3C1C5D}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Wwise_Meter_SFX" ID="{3B75A89A-4EBF-4BB9-ACB9-905581B1755D}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.09"/>
+						<Property Name="Hold" Type="Real32" Value="0.05"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.08"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="WwiseMeter_Sfx" ID="{3C961623-C96C-4A98-941A-FBA6D95D01DB}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="Meter_3band_Mx" ID="{905B0BD2-F9AE-4A6A-82D7-6599DF590FB7}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="333"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="1646"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="7388"/>
+						<Property Name="GainBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{41BA9E09-EF85-4FC5-A12F-16A04C142B71}" ShortID="246561120">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}" WorkUnitID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{EEFEAC32-07DE-4895-988A-092A3D790D5B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-0.00267</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-28.6607</XPos>
+												<YPos>0.00257</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1.88191</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand2" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{1F7F8BB3-1E8F-4423-853C-0071A1CE101D}" ShortID="914137879">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}" WorkUnitID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E8AAFA10-0DD1-4275-B82F-72C5C92E9DFE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-0.02224</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-32.35294</XPos>
+												<YPos>-0.02794</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-21.63676</XPos>
+												<YPos>-0.19512</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-3.10689</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand3" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{5A45003C-30AB-44F0-AF0D-5147D17643B7}" ShortID="858036728">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}" WorkUnitID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{AE64146B-BB16-441C-9CD9-77C500729476}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-0.02224</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-32.1614</XPos>
+												<YPos>-0.02794</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-20.63341</XPos>
+												<YPos>-0.76159</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-5.1442</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="OutputLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{D8C000B3-4B5E-4F34-88C2-2349DB2E7F6C}" ShortID="172612965">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}" WorkUnitID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{915BD00C-2334-425B-956E-E926704B67E4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-0.02794</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-32.82353</XPos>
+												<YPos>-0.01095</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-21.88235</XPos>
+												<YPos>-0.18435</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-1.75934</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Meter_3band_Sfx" ID="{6ABD6EC3-E564-47D2-91B3-7221E3A9955D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="333"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="878"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="7388"/>
+						<Property Name="GainBand1" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{F380C005-2548-42D2-9877-BDB61AB76329}" ShortID="447188463">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}" WorkUnitID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{68B804A3-8A01-4D1B-B742-15C35074D23C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-0.00267</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-34.82353</XPos>
+												<YPos>-0.19911</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-22.19011</XPos>
+												<YPos>-0.41247</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-3.1997</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand2" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{929F1A3F-A99A-47FC-AA2E-F301E12C3F63}" ShortID="760696621">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}" WorkUnitID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7CB3FAC4-3E56-4A59-AF6A-13639BE3BDF5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-0.10977</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-26.9445</XPos>
+												<YPos>-0.47131</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-4.97746</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="GainBand3" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{F53530C4-2C6D-423F-98EC-485C4AE00D2C}" ShortID="210540791">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}" WorkUnitID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{4AB77341-B5A3-4801-A26F-382B3F628B23}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-0.05132</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-33.29412</XPos>
+												<YPos>-0.33845</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-22.89465</XPos>
+												<YPos>-0.59695</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Exp2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-4.39238</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

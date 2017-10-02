@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}" SchemaVersion="75">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{27850504-BE9F-43A3-A1AF-C71E07F57E0E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="WwiseMeter_Dia" ID="{F74ABFD7-7D52-4284-B644-913C01EEE5EE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="15"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="14"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WwiseMeter_Sfx" ID="{3C961623-C96C-4A98-941A-FBA6D95D01DB}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="WwiseMeter_Mx" ID="{B1041C6B-ED98-4BAE-AB9A-D30FAB3C1C5D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
